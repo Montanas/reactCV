@@ -21,16 +21,16 @@ const OtherSkills = () => {
         </ul>
         <ul>
           <li>
-            <i className="fas fa-check-square"></i> Figma
+            <i className="fas fa-check-square"></i> Figma, Adobe XD
           </li>
           <li>
-            <i className="fas fa-check-square"></i> UI/UX
+            <i className="fas fa-check-square"></i> Android / IOS
           </li>
           <li>
-            <i className="fas fa-check-square"></i> PhotoShop
+            <i className="fas fa-check-square"></i> UML, Merise, SCRUM.
           </li>
           <li>
-            <i className="fas fa-check-square"></i> Swift
+            <i className="fas fa-check-square"></i>  SQL Server, XAMPP
           </li>
         </ul>
       </div>
