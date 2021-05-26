@@ -19,29 +19,38 @@ class Project extends Component {
           {languagesIcons.map((icon) => (
             <i className={icon} key={icon}></i>
           ))}
-          <h3>{name}</h3>
-          <img src={picture} alt="" onClick={this.handleIfnfo}></img>
-          <span className="infos" onClick={this.handleIfnfo}>
-            <i className="fas fa-plus-circle"></i>
-          </span>
+        </div>
+        <h3>{name}</h3>
+        <img src={picture} alt="" onClick={this.handleIfnfo}></img>
+        <span className="infos" onClick={this.handleIfnfo}>
+          <i className="fas fa-plus-circle"></i>
+        </span>
 
-          {this.state.showInfo && (
-            <div className="showInfos">
+        {this.state.showInfo && (
+          <div className="showInfos">
+            <div className="infosContent">
               <div className="head">
                 <h2>{name}</h2>
                 <div className="sourceCode">
-                    <a href={source} rel="noopenner noreferrer" className="button" target="_blank">Code source</a>
+                  <a
+                    href={source}
+                    rel="noopenner noreferrer"
+                    className="button"
+                    target="_blank"
+                  >
+                    Visiter
+                  </a>
                 </div>
               </div>
 
-            <p className="text" >{info}</p>
+              <p className="text">{info}</p>
 
               <div className="button return" onClick={this.handleIfnfo}>
                 retourner sur la page
               </div>
             </div>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     );
   }

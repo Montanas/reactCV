@@ -10,7 +10,7 @@ const Home = () => {
           <h1>David SARTORI</h1>
           <h2>Développeur Fullstack</h2>
           <div className="pdf">
-            <a href="./media/CV.pdf" target="_blank">Télécharger</a>
+            <a href="./media/cv.pdf" target="_blank">Télécharger</a>
           </div>
         </div>
       </div>
